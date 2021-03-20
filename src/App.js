@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   const [value, setValue] = useState('one');
   
-  const handleChange = (event, value) =>{
+  const handleChange = (event, value) => {
     setValue(value);
   };
   
